@@ -20,31 +20,29 @@
   </head>
   
   <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <nav class="navbar navbar-inverse navbar-fixed-top navbar-dark bg-dark container" role="navigation">
         <div class="container">
             <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
+                <button type="button" class="navbar-toggle collapsed btn btn-dark" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
                 </button>
                 <a href="<?php echo BASEURL; ?>index.php" class="navbar-brand">Clientes</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                            Clientes<span class="caret"></span>
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a href="<?php echo BASEURL; ?>customers">Gerenciar Clientes</a></li>
-                            <li><a href="<?php echo BASEURL; ?>customers">Novo Cliente</a></li>
-                        </ul>
-                    </li>
+                    <div class="row">
+                        <li class="dropdown">
+                            <a href="<?php echo BASEURL; ?>customers" class="btn btn-dark" role="button" aria-haspopup="true" aria-expanded="false"> Gerenciar Clientes</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="<?php echo BASEURL; ?>customers/add.php" class="btn btn-dark" role="button" aria-haspopup="true" aria-expanded="false">Novo Cliente</a>
+                        </li>
+                    </div>
                 </ul>
             </div>
         </div>
     </nav>
     
+    
+
     <main class="container">

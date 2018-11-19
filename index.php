@@ -5,7 +5,6 @@
 <?php $db = open_database(); ?>
 
 <h1>Dashboard</h1>
-<hr>
 
 <?php if ($db) : ?>
 	<div class="row">
