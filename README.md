@@ -15,3 +15,10 @@ Os links para acesso são:
 
 * [Aplicação](http://localhost:8001/)
 * [PHP Myadmin](http://localhost:8000/)
+
+## Fontes
+
+FERREIRA, Micael. Criando uma imagem LAMP no Docker - Comunidade Vale Livre - Medium. Medium. Disponível em: <https://medium.com/comunidade-vale-livre/criando-uma-imagem-lamp-no-docker-be74536866a9>.
+
+KUMAR, Sahil. CRUD App Using Bootstrap 5, PHP-OOP, PDO-MySQL, Fetch API of ES6. DCodeMania. Disponível em: <https://dcodemania.com/post/crud-app-php-oop-pdo-mysql-fetch-api-es6>.
+‌
